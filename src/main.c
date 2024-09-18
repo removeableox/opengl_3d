@@ -173,6 +173,15 @@ int main () {
 	unsigned int shaderProgram = initShaders(); 
 
 	struct Model room = initModel("assets/models/room.obj", 0, 0, 0, 4);
+
+	puts("First five normals:");
+	for (int i = 0; i < 15; i+=3) {
+		printf("%f, %f, %f\n", room.normals[i], room.normals[i+1], room.normals[i+2]);
+	}
+	puts("First five vertices:");
+	for (int i = 0; i < 15; i+=3) {
+		printf("%f, %f, %f\n", room.vertices[i], room.vertices[i+1], room.vertices[i+2]);
+	}
 	
 	initRenderObjects();	
 
