@@ -1,3 +1,0 @@
-/Users/calebcosta/coding/opengl_3d/build/CMakeFiles/OpenGLProject.dir
-/Users/calebcosta/coding/opengl_3d/build/CMakeFiles/edit_cache.dir
-/Users/calebcosta/coding/opengl_3d/build/CMakeFiles/rebuild_cache.dir
