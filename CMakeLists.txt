@@ -26,7 +26,7 @@ find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
 
 # Add executable
-add_executable(OpenGLProject ${SOURCES})
+add_executable(main ${SOURCES})
 
 # Link libraries
 target_link_libraries(OpenGLProject
